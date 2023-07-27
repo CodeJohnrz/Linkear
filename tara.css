@@ -1,0 +1,137 @@
+*
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(img/pichu.gif) no-repeat center top;
+	background-size: cover;
+	font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+	height: 100px;
+}
+
+.loginbox {
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #FFF;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.loginbox .pito {
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.loginbox h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+.loginbox label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.password {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.email {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.submit {
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: #74109A;
+	font-size: 10px;
+	border-radius: 20px;
+
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #74109A;
+
+}
+
+.loginbox a:hover {
+
+color: #fff;
+}
+
+
+
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header nav {
+	float: right;
+	line-height: 100px;
+}
+
+header nav a {
+	display: inline-block;
+
+	color: #74109A;
+
+	padding: 10px 20px;
+	text-decoration: none;
+
+	line-height: normal;
+	
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
+
+header nav a:hover {
+	background: #000000;
+	border-radius: 50px;
+}
